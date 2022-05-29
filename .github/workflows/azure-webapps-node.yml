@@ -47,10 +47,8 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        env:
-          CI: false
         npm run test --if-present
-        env:
+      env:
           CI: false
 
     - name: Upload artifact for deployment job
