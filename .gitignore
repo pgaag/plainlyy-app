@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# intellij
+.idea
+
+# stuff
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
