@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import './App.css';
 import TopBar from "./components/TopBar";
 import TextAreasContainer from "./components/TextAreasContainer";
